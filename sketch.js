@@ -198,7 +198,7 @@ function draw() {
     moneyText = "0" + moneyText;
     if(money < 10){
       moneyText = "0" + moneyText;
-      if(money==0){
+      if(money<=0){
         moneyText = ":(";
       }
     }
