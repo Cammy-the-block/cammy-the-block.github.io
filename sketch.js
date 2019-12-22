@@ -172,6 +172,10 @@ function draw() {
             console.log(money);
           }
         }
+        if (delta == 0 && currents[4] + currents[5] + currents[6] == 3){
+          delta = 30;
+          money+= delta;
+        }
         paidOut = true;
         if (delta != 0) {
           deltaOn = true;
