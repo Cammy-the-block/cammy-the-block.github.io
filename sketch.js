@@ -121,7 +121,7 @@ var deltaFrames = 0;
 var deltaOn = false;
 
 function setup() {
-  createCanvas(1500, 1000);
+  createCanvas(windowWidth-50, windowHeight-50);
   button = createButton('SPIN');
   textFont('Ultra');
   button.position(600, 550);
